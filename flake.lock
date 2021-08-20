@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "forgefed": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626334021,
+        "narHash": "sha256-MFTEU8+qR0kidsWMab57U3vnURJLNe+q1i3b00gFyTc=",
+        "ref": "master",
+        "rev": "5e44b2bde356b3ea404330b4bba90fb2bfd33a89",
+        "revCount": 153,
+        "type": "git",
+        "url": "https://notabug.org/peers/forgefed.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://notabug.org/peers/forgefed.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1627805549,
+        "narHash": "sha256-+LHhcpzw6vAxF6q0VSLkZSEGpDC02JN21KM8eUWz+is=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "16bf3980bfa0d8929639be93fa8491ebad9d61ec",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-21.05",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "forgefed": "forgefed",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
